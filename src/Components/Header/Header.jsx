@@ -10,7 +10,7 @@ export default function Header() {
 						<p>Find Your New Modern Apartment</p>
 					</div>
 					<div className="search-bar">
-						<input type="text" placeholder="Search Location " />
+						<input type="text" placeholder="Search Location "style={{ padding: '10px' ,fontSize:'20px'}} />
 						<button>Search</button>
 					</div>
 				</div>
@@ -21,13 +21,13 @@ export default function Header() {
 					<div className="phone">
 						<p>
 							<i class="fa fa-phone" aria-hidden="true"></i>{" "}
-							<span>(+254)7 2496 6748</span>
+							<span>+91 9924162244</span>
 						</p>
 					</div>
 					<div>
 						<p>
 							<i class="fa fa-map-marker" aria-hidden="true"></i>{" "}
-							<span>Nairobi, Kenya</span>
+							<span>Ahmedabad, Gujarat</span>
 						</p>
 					</div>
 				</div>

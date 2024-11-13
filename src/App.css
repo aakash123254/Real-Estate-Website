@@ -29,6 +29,13 @@ nav {
 	background-color: #fff;
 	/* overflow-x: hidden; */
 }
+.apartment-footer .search-location input {
+    /* Add more styles as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	padding: 100px;
+}
+
 .nav-links {
 	display: flex;
 	flex-direction: row;

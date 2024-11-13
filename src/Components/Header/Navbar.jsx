@@ -11,7 +11,7 @@ export default function Navbar() {
 	return (
 		<nav>
 			<div className="logo">
-				<a href="#!">evero realtors</a>
+				<a href="#!">Evero</a>
 			</div>
 			<div className={menu ? "nav-links" : "nav-links show"}>
 				<div className="nav-link">
@@ -19,8 +19,8 @@ export default function Navbar() {
 						to="header"
 						spy={true}
 						smooth={true}
-						duration={2000}
-						delay={500}
+						duration={600}
+						delay={400}
 						onClick={() => showMenu()}
 					>
 						Home
@@ -31,8 +31,8 @@ export default function Navbar() {
 						to="about"
 						spy={true}
 						smooth={true}
-						duration={2000}
-						delay={500}
+						duration={1600}
+						delay={300}
 						onClick={() => showMenu()}
 					>
 						About
@@ -43,8 +43,8 @@ export default function Navbar() {
 						to="apartments"
 						spy={true}
 						smooth={true}
-						duration={2000}
-						delay={500}
+						duration={1600}
+						delay={300}
 						onClick={() => showMenu()}
 					>
 						Apartments
@@ -55,8 +55,8 @@ export default function Navbar() {
 						to="works"
 						spy={true}
 						smooth={true}
-						duration={2000}
-						delay={500}
+						duration={1600}
+						delay={300}
 						onClick={() => showMenu()}
 					>
 						How It Works
@@ -67,8 +67,8 @@ export default function Navbar() {
 						to="agents"
 						spy={true}
 						smooth={true}
-						duration={2000}
-						delay={500}
+						duration={1600}
+						delay={300}
 						onClick={() => showMenu()}
 					>
 						Agents
@@ -79,8 +79,8 @@ export default function Navbar() {
 						to="contacts"
 						spy={true}
 						smooth={true}
-						duration={2000}
-						delay={500}
+						duration={1600}
+						delay={300}
 						onClick={() => showMenu()}
 					>
 						Contact Us

@@ -10,7 +10,7 @@ export default function Footer() {
 				</div>
 				<div>
 					<div className="newsletter">
-						<input type="text" placeholder="Your Email Address" />
+						<input type="text" placeholder="Your Email Address" style={{ padding: '25px',fontSize:'25px' }}/>
 						<button>
 							<i
 								class="fa fa-long-arrow-right"

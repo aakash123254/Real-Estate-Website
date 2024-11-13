@@ -10,10 +10,10 @@ export default function Agents() {
 			<div className="agents-intro">
 				<p className="agents-heading">Meet Our Agents</p>
 				<p className="agents-text">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-					nemo unde quia recusandae explicabo possimus, tempora
-					delectus ex consequatur fuga quam assumenda quibusdam labore
-					fugiat facere esse.
+				Our team of dedicated real estate professionals is committed to providing 
+				exceptional service and guiding you through every step of your real estate journey. 
+				With a deep understanding of the local market and a passion for helping clients find 
+				their dream homes, our agents are here to assist you.
 				</p>
 			</div>
 			<div className="agents-container">
