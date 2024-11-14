@@ -1,43 +1,31 @@
-import formatCurrency from "../../utils";
+import React, { useState } from "react";
+import Agent from "./Agent";
+import agents from "../../Data/AgentsData";
 
-export default function Apartment({
-	image,
-	title,
-	price,
-	bathrooms,
-	bedrooms,
-}) {
+export default function Agents() {
+	const [allAgents] = useState(agents);
+
 	return (
-		<div className="single-apartment">
-			<div className="apartment-image">
-				<img src={image} alt={title} />
+		<div className="agents" id="agents">
+			<div className="agents-intro">
+				<p className="agents-heading">Meet Our Agents</p>
+				<p className="agents-text">
+				Our team of dedicated real estate professionals is committed to providing 
+				exceptional service and guiding you through every step of your real estate journey. 
+				With a deep understanding of the local market and a passion for helping clients find 
+				their dream homes, our agents are here to assist you.
+				</p>
 			</div>
-			<div className="apartment-details">
-				<div className="">
-					<h4 className="title">{title}</h4>
-				</div>
-				<div className="apartment-detail">
-					<div className="">
-						<p className="price">{formatCurrency(price)}</p>
-					</div>
-					<div className="">
-						<p>
-							<span className="bath">
-								<i class="fa fa-shower" aria-hidden="true"></i>
-								{bathrooms}
-								<span className="detail"> BA</span>
-							</span>
-							<span>
-								<i class="fa fa-bed" aria-hidden="true"></i>
-								{bedrooms}
-								<span className="detail"> BD</span>
-							</span>
-						</p>
-					</div>
-				</div>
-				<button class="checkoutBtn">Check Out</button>
+			<div className="agents-container">
+				{allAgents.map((agent) => (
+					<Agent
+						key={agent.id}
+						name={agent.name}
+						title={agent.title}
+						image={agent.image}
+					/>
+				))}
 			</div>
-			
 		</div>
 	);
 }
