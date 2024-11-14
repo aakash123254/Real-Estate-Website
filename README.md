@@ -36,12 +36,6 @@ Real-Estate React App
 
 ![Screenshot_20210512_145806](https://user-images.githubusercontent.com/58906058/117971096-f96a1c80-b318-11eb-8692-b454dc73da22.png)
 
-### HOSTED @
 
-[click here!](https://lumunge.github.io/Real-Estate-Website/)
 
-### SETUP
 
-    * git clone https://github.com/lumunge/Real-Estate-Website.git
-    * npm i
-    * npm start
