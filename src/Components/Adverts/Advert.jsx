@@ -1,4 +1,4 @@
-export default function Advert({ image, location, adTitle, text }) {
+export default function Adverts({ image, location, adTitle, text }) {
 	return (
 		<div className="advert">
 			<div className="adImage">

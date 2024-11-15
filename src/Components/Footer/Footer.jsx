@@ -23,7 +23,8 @@ export default function Footer() {
 			<span className="footer-line"></span>
 			<footer>
 				<div className="logo-section">
-					<p className="copy-heading">realestate</p>
+					<p className="copy-heading">Realestate</p>
+					<p className="copy-heading">Made by Aakash & Ghanshyam</p>
 				</div>
 				<div className="footer-links">
 					<div>

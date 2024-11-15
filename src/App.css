@@ -997,5 +997,115 @@ footer {
 		padding-bottom: 0;
 	}
 }
-
+.login-toggle-button {
+	margin-right: 10px; /* Adjust the value to your preference */
+  }
+  
+  /* Optionally, add some margin for the Get Started button if needed */
+  .get-started-button {
+	margin-left: 10px; /* You can also apply margin to this button for spacing */
+  }
 /* END RESPONSIVE DESIGN*/
+
+
+
+/* Login desing  */
+
+/* Basic login page styling */
+.login-container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-header h2 {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .login-header p {
+	text-align: center;
+	font-size: 14px;
+	color: #777;
+  }
+  
+  .input-group {
+	margin-bottom: 20px;
+  }
+  
+  .input-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	color: #555;
+  }
+  
+  .input-group input {
+	width: 100%;
+	padding: 12px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	outline: none;
+  }
+  
+  .input-group input:focus {
+	border-color: #007bff;
+  }
+  
+  .login-actions {
+	text-align: center;
+  }
+  
+  .login-btn {
+	width: 100%;
+	padding: 15px;
+	font-size: 16px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .login-btn:hover {
+	background-color: #0056b3;
+  }
+  
+  .forgot-password {
+	margin-top: 10px;
+  }
+  
+  .forgot-password a {
+	font-size: 14px;
+	color: #007bff;
+	text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+	text-decoration: underline;
+  }
+  
+  .login-footer {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .login-footer p {
+	font-size: 14px;
+	color: #555;
+  }
+  
+  .login-footer a {
+	color: #007bff;
+	text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+	text-decoration: underline;
+  }
+  
