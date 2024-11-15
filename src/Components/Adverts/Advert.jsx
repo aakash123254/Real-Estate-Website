@@ -1,3 +1,4 @@
+import React from "react";
 export default function Adverts({ image, location, adTitle, text }) {
 	return (
 		<div className="advert">

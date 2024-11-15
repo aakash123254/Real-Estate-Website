@@ -997,6 +997,17 @@ footer {
 		padding-bottom: 0;
 	}
 }
+.apartment-detail-page {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .inside-images img {
+	display: inline-block;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
 .login-toggle-button {
 	margin-right: 10px; /* Adjust the value to your preference */
   }

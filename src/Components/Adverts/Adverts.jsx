@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ads from "../../Data/AdsData";
 import Advert from "./Advert";
 
+
 export default function Adverts() {
 	const [adverts] = useState(ads);
 

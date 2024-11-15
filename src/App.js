@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Header/Navbar";
 import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
@@ -9,6 +10,7 @@ import Agents from "./Components/Agents/Agents";
 import Adverts from "./Components/Adverts/Adverts";
 import Footer from "./Components/Footer/Footer";
 import Login from "./Components/Login";
+import ApartmentDetail from "./Components/ApartmentDetail";
 import "./App.css";
 
 function App() {
@@ -19,23 +21,33 @@ function App() {
   };
 
   return (
-    <>
+    <Router>
       {showLogin ? (
         <Login onLoginSubmit={handleLoginSubmit} />
       ) : (
         <>
           <Navbar onLoginClick={() => setShowLogin(true)} />
-          <Header />
-          <About />
-          <Apartments />
-          <Works />
-          <Services />
-          <Agents />
-          <Adverts />
-          <Footer />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header />
+                  <About />
+                  <Apartments />
+                  <Works />
+                  <Services />
+                  <Agents />
+                  <Adverts />
+                  <Footer />
+                </>
+              }
+            />
+            <Route path="/apartment/:id" element={<ApartmentDetail />} />
+          </Routes>
         </>
       )}
-    </>
+    </Router>
   );
 }
 

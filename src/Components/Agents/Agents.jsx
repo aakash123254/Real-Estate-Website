@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Agent from "./Agent";
 import agents from "../../Data/AgentsData";
 
+
 export default function Agents() {
 	const [allAgents] = useState(agents);
 
@@ -23,6 +24,7 @@ export default function Agents() {
 						name={agent.name}
 						title={agent.title}
 						image={agent.image}
+						phone={agent.phone}
 					/>
 				))}
 			</div>

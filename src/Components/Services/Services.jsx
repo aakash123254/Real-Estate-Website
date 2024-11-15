@@ -1,4 +1,5 @@
 import serviceImage from "../../img/services.jpeg";
+import React from "react";
 export default function Services() {
 	return (
 		<div className="services">

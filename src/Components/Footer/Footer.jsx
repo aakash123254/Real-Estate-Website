@@ -1,3 +1,4 @@
+import React from "react";
 export default function Footer() {
 	return (
 		<div className="footer" id="contacts">
@@ -61,7 +62,7 @@ export default function Footer() {
 				</div>
 				<p className="copyright">
 						&copy; 2021 - created by{" "}
-						<a href="https://github.com/lumunge" target="_blank" rel="noreferrer">lumunge</a>
+						<a href="https://github.com/aakash123254" target="_blank" rel="noreferrer">Aakash</a>
 					</p>
 			</footer>
 		</div>

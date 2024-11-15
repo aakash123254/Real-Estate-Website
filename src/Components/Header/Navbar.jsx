@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import Login from "../Login";
+
 export default function Navbar({ onLoginClick }) {
   const [menu, setMenu] = useState(true);
   const [showLogin, setShowLogin] = useState(false); // Track login state in Navbar
@@ -16,8 +17,9 @@ export default function Navbar({ onLoginClick }) {
   return (
     <nav>
       <div className="logo">
-        <a href="#!">Evero</a>
+  <a href="/" onClick={(e) => { e.preventDefault(); window.location.reload(); }}>Evero</a>
       </div>
+
       <div className={menu ? "nav-links" : "nav-links show"}>
         <div className="nav-link">
           <Link
